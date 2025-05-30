@@ -39,3 +39,4 @@ CREATE TABLE IF NOT EXISTS Actuaciones (
     FOREIGN KEY (serie_id) REFERENCES Series(serie_id),
     PRIMARY KEY (actor_id, serie_id)
 );
+--Fin de las tablas
